@@ -1,8 +1,6 @@
 # Android web installer
 
-This is an easy-to-use web installer for Android-based operating systems that runs entirely in the browser. It uses WebUSB, which is supported by Chromium and its derivatives, and my [fastboot.js](https://github.com/kdrag0n/fastboot.js) library for flashing. This allows it to work on computers and Android devices software with no additional software or command-line tools.
-
-If you have a device officially supported by [ProtonAOSP](https://github.com/ProtonAOSP), you can try flashing it with the official instance of this web installer at [ProtonAOSP web installer](https://protonaosp.org/install/web/?utm_source=github&utm_campaign=android-webinstall).
+This is an easy-to-use web installer for Android-based operating systems that runs entirely in the browser. It uses WebUSB, which is supported by Chromium and its derivatives, and kdrag0n's [fastboot.js](https://github.com/kdrag0n/fastboot.js) library for flashing. This allows it to work on computers and Android devices software with no additional software or command-line tools.
 
 ![Screenshot of an install in progress on a desktop computer](https://user-images.githubusercontent.com/7930239/107459937-10c41e80-6b0c-11eb-8fbc-6882145f164f.png)
 
@@ -20,19 +18,24 @@ The following screenshots show the entire installation process, from start to fi
 ![Step: Install ProtonAOSP](https://user-images.githubusercontent.com/7930239/107459937-10c41e80-6b0c-11eb-8fbc-6882145f164f.png)
 ![Step: Installation complete](https://user-images.githubusercontent.com/7930239/107459580-59c7a300-6b0b-11eb-831f-8d55e7c4c5ef.png)
 
-## Adapting for other ROMs
 
-By default, this installer is configured for the ProtonAOSP production environment, but it was built with reusability in mind. It can be adapted to other ROM projects with only configuration changes.
 
-You can start with the following Yarn commands:
-
-- `yarn install`
-- `yarn serve`
-- `yarn build`
-- `yarn lint`
-
-All configuration is in `src/config.js` and `.env`, and the release index at `public/releases/index.json` is fetched from the root of the domain hosting the installer. You may also want to change the favicon at `public/favicon.png`.
 
 ## Contributing
 
-Contributions are welcome! If you adapt this installer or make other improvements to it, please contribute the improvements back to the official repository instead of forking it and keeping the changes to yourself. There are many rough edges that need to be improved upon.
+Contributions for creator of this web installer kdrag0n are welcome! If you adapt this installer or make other improvements to it, please contribute the improvements back to the official repository instead of forking it and keeping the changes to yourself. There are many rough edges that need to be improved upon.
+
+
+Recurring donation
+
+Please consider making a recurring donation on Patreon for benefits such as early access to updates, exclusive behind-the-scenes development news, and priority support. This allows us to support the project sustainably in the future.
+
+url: "https://patreon.com/kdrag0n",
+
+Also a One-time donation can be made.
+
+One-time donation
+
+You can also make a one-time donation through PayPal. It doesn’t help with sustainable support, but every little bit is appreciated!
+
+url: "https://paypal.me/kdrag0ndonate",

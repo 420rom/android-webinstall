@@ -1,23 +1,8 @@
 export default {
     OS_NAME: process.env.VUE_APP_OS_NAME,
-    ACCENT_COLOR: "#0366d6",
+    ACCENT_COLOR: "#0daa9a",
+	BACKGROUND_COLOR: "#000000",
     SUPPORTED_DEVICES: [
-        {
-            name: "Pixel 4",
-            model: "flame",
-        },
-        {
-            name: "Pixel 4 XL",
-            model: "coral",
-        },
-        {
-            name: "Pixel 4a 5G",
-            model: "bramble",
-        },
-        {
-            name: "Pixel 5",
-            model: "redfin",
-        },
         {
             name: "Pixel 6",
             model: "oriole",
@@ -28,22 +13,23 @@ export default {
         },
     ],
     RELEASE_VARIANTS: {
-        minimal: {
-            description: "Minimal version without Google apps or services.",
-            suffix: "",
-        },
-        gapps: {
+        Release: {
             description:
-                "Version with Google services included, so the apps you’re familiar with will work. Recommended for most users.",
-            suffix: " with Google services",
+                "420rom Release Version without Google Services and Apps, Recommended for most users.",
+            suffix: "release",
         },
-        test: {
-            description: "Experimental version for testing only.",
-            suffix: "experimental",
+		ReleaseGapps: {
+            description:
+                "420rom Release Version with Google Services and Apps included, Recommended for most users.",
+            suffix: "releasegapps",
         },
-        beta: {
-            description: "Beta version for testing only.",
+        Beta: {
+            description: "420rom Pre-Release Beta Version for testing only.",
             suffix: "beta",
+        },
+		Alpha: {
+            description: "420rom Early Experimental Alpha Version for testing only.",
+            suffix: "alpha",
         },
     },
     DONATION_LINKS: [
