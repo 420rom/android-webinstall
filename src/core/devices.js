@@ -1,5 +1,4 @@
 const DEVICE_NAMES = {
-    oriole: "Pixel 6",
     raven: "Pixel 6 Pro",
 };
 

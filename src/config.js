@@ -4,32 +4,27 @@ export default {
 	BACKGROUND_COLOR: "#000000",
     SUPPORTED_DEVICES: [
         {
-            name: "Pixel 6",
-            model: "oriole",
-        },
-        {
             name: "Pixel 6 Pro",
             model: "raven",
         },
     ],
     RELEASE_VARIANTS: {
-        Release: {
-            description:
-                "420rom Release Version without Google Services and Apps, Recommended for most users.",
-            suffix: "release",
+        minimal: {
+            description: "420rom Release Version without Google Services and Apps, Recommended for most users.",
+            suffix: "420rom Release rom without Gapps",
         },
-		ReleaseGapps: {
+        gapps: {
             description:
                 "420rom Release Version with Google Services and Apps included, Recommended for most users.",
-            suffix: "releasegapps",
+            suffix: "420rom Release rom with Gapps",
         },
-        Beta: {
-            description: "420rom Pre-Release Beta Version for testing only.",
-            suffix: "beta",
+        test: {
+            description: "420rom Alpha Version for testing only.",
+            suffix: "420rom Alpha rom for testing only",
         },
-		Alpha: {
-            description: "420rom Early Experimental Alpha Version for testing only.",
-            suffix: "alpha",
+        beta: {
+            description: "420rom Beta Version for testing only.",
+            suffix: "420rom Beta rom for testing only",
         },
     },
     DONATION_LINKS: [
