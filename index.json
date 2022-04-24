@@ -4,9 +4,10 @@
             {
                 "version": "v0.1a",
                 "variant": "test",
-                "url": "https://cloudflare-cors-anywhere.420romwebinstaller.workers.dev/device_google_raven/releases/download/v0.1/AOSP_420rom_exo_0.1A.zip"
+                "url": "https://cloudflare-cors-anywhere.420romwebinstaller.workers.dev/?https://github.com/420rom/device_google_raven/releases/download/v0.1/AOSP_420rom_exo_0.1A.zip"
             }
         ]
     }
 }
 
+/?uri=

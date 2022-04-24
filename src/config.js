@@ -11,20 +11,20 @@ export default {
     RELEASE_VARIANTS: {
         minimal: {
             description: "420rom Release Version without Google Services and Apps, Recommended for most users.",
-            suffix: "420rom Release rom without Gapps",
+            suffix: " Release rom without Gapps",
         },
         gapps: {
             description:
                 "420rom Release Version with Google Services and Apps included, Recommended for most users.",
-            suffix: "420rom Release rom with Gapps",
+            suffix: " Release rom with Gapps",
         },
         test: {
             description: "420rom Alpha Version for testing only.",
-            suffix: "420rom Alpha rom for testing only",
+            suffix: " Alpha rom for testing only",
         },
         beta: {
             description: "420rom Beta Version for testing only.",
-            suffix: "420rom Beta rom for testing only",
+            suffix: " Beta rom for testing only",
         },
     },
     DONATION_LINKS: [
