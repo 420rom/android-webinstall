@@ -3,7 +3,7 @@
         "raven": [
             {
                 "version": "v0.1a",
-                "variant": "test",
+                "variant": "minimal",
                 "url": "https:/corsflare.420romwebinstaller.workers.dev/420rom/device_google_raven/releases/download/v0.1/AOSP_420rom_exo_0.1A.zip"
             }
         ]

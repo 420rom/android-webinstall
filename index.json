@@ -3,8 +3,8 @@
         "raven": [
             {
                 "version": "v0.1a",
-                "variant": "test",
-                "url": "https:/corsflare.420romwebinstaller.workers.dev/420rom/device_google_raven/releases/download/v0.1/AOSP_420rom_exo_0.1A.zip"
+                "variant": "minimal",
+                "url": "https://wrc05.asuswebstorage.com/webrelay/directdownload/vHUI081ycZdk5iQP/?x-asc-sid=10014&fi=1064815519&pv=0&x-asc-sid-version=6.7.3(35f0c49d)&x-asc-device-name=Y2hyb21lKDEwMy4wLjk5OTkp&x-asc-os-version=Windows%2010&x-asc-token=vHUI081ycZdk5iQP&tlt=xcXleOaNclGIBNbRh%2B2Xf3Ahzcou5fmBzUOmZYmDxz0%3D"
             }
         ]
     }
