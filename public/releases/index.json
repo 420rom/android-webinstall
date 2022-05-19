@@ -3,8 +3,8 @@
         "cheetah": [
             {
                 "version": "v0.1a",
-                "variant": "minimal",
-                "url": "https://A9F62316CC8F9EBC65EA76E20707FCEB2.asuscomm.com/AICLOUD556938429/AOSP_420rom_exo_0.1A.zip"
+                "variant": "alpha",
+                "url": "https://storage.googleapis.com/ethos_binaries/ethOS2_blueline.zip",
             }
         ]
     }

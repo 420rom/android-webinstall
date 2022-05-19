@@ -63,15 +63,31 @@
                 single-line
                 outlined
                 rounded
+                v-if="downloadProgress >= 100"
+            >
+                <v-icon slot="icon" color="green darken-3">mdi-check</v-icon>
+                <div class="my-4">
+                    <span class="text-body-1 green--text text--darken-3"
+                        >Downloaded {{ $root.$data.OS_NAME }}
+                        {{ $root.$data.release.version }}-{{
+                            $root.$data.release.variant
+                        }}</span
+                    >
+                </div>
+            </v-banner>
+            <v-banner
+                single-line
+                outlined
+                rounded
                 class="mt-8 pt-1"
-                v-if="downloadProgress !== null"
+                v-else-if="downloadProgress !== null"
             >
                 <v-icon slot="icon" color="primary">mdi-download</v-icon>
                 <span class="text-body-1">Downloading…</span>
                 <v-progress-linear
                     class="my-3"
                     buffer-value="0"
-                    :value="0"
+                    :value="downloadProgress"
                     stream
                 ></v-progress-linear>
             </v-banner>

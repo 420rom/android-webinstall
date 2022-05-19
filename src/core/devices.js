@@ -1,5 +1,5 @@
 const DEVICE_NAMES = {
-    cheetah: "Pixel 7 Pro",
+    cheetah: "Google Pixel 7 Pro",
 };
 
 export function getDeviceName(device) {

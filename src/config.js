@@ -4,27 +4,23 @@ export default {
 	BACKGROUND_COLOR: "#000000",
     SUPPORTED_DEVICES: [
         {
-            name: "Pixel 7 Pro",
+            name: "Google Pixel 7 Pro",
             model: "cheetah",
         },
     ],
     RELEASE_VARIANTS: {
-        minimal: {
-            description: "420rom Release Version without Google Services and Apps, Recommended for most users.",
-            suffix: " Release rom without Gapps",
-        },
-        gapps: {
+        release: {
             description:
                 "420rom Release Version with Google Services and Apps included, Recommended for most users.",
             suffix: " Release rom with Gapps",
         },
-        test: {
-            description: "420rom Alpha Version for testing only.",
-            suffix: " Alpha rom for testing only",
-        },
-        beta: {
+		beta: {
             description: "420rom Beta Version for testing only.",
             suffix: " Beta rom for testing only",
         },
     },
+        alpha: {
+            description: "420rom Alpha Version for testing only.",
+            suffix: " Alpha rom for testing only",
+        },
 };
