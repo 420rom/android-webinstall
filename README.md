@@ -19,23 +19,3 @@ The following screenshots show the entire installation process, from start to fi
 ![Step: Installation complete](https://user-images.githubusercontent.com/7930239/107459580-59c7a300-6b0b-11eb-831f-8d55e7c4c5ef.png)
 
 
-
-
-## Contributing
-
-Contributions for creator of this web installer kdrag0n are welcome! If you adapt this installer or make other improvements to it, please contribute the improvements back to the official repository instead of forking it and keeping the changes to yourself. There are many rough edges that need to be improved upon.
-
-
-Recurring donation
-
-Please consider making a recurring donation on Patreon for benefits such as early access to updates, exclusive behind-the-scenes development news, and priority support. This allows us to support the project sustainably in the future.
-
-url: "https://patreon.com/kdrag0n",
-
-Also a One-time donation can be made.
-
-One-time donation
-
-You can also make a one-time donation through PayPal. It doesn’t help with sustainable support, but every little bit is appreciated!
-
-url: "https://paypal.me/kdrag0ndonate",
