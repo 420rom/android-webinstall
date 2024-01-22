@@ -86,7 +86,7 @@ new Vue({
         product: null,
         zipBlob: null,
         release: null,
-        installType: 'clean',
+        installType: null,
         ...Config,
     },
     render: (h) => h(App),
