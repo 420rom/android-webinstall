@@ -5,7 +5,7 @@ const fs    = require('fs')
 
 const base_path = path.resolve(__dirname, '..')
 const releases_dest_path = path.resolve(base_path, 'public', 'releases', 'index.json')
-const releases_src_url = 'https://calyxos.org/data/downloads.yml'
+const releases_src_url = 'https://420rom.co.uk.org/data/downloads.yml'
 
 function generateReleases (doc) {
   var releases = {"latest": {}}

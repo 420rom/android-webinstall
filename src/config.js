@@ -16,5 +16,13 @@ export default {
             description: "Stable release.",
             suffix: "",
         },
+        beta: {
+            description: "Beta release.",
+            suffix: "",
+        },
+        alpha: {
+            description: "Alpha release.",
+            suffix: "",
+        },
     ],
 };

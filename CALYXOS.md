@@ -1,13 +1,11 @@
-This is the CalyxOS version of android-webinstall, modified for use with CalyxOS.
+This is the 420rom version of android-webinstall, modified for use with 420rom.
 
-calyxos-webinstall changes from upstream android-webinstall:
+Changes from upstream android-webinstall:
 
 * Modified `.env`
 * Modified `src/config.js`
 * Modified `src/core/devices.js`
 * Replaced `public/releases/index.json` (via update-releases script)
-* Replaced `public/favicon.png`
-* Removed step that lets you select clean install or not.
 * Modified `public/index.html` to remove request for icons via CDN, saved icon CSS and fonts to `public`.
 
 Scripts:
